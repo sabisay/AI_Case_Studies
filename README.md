@@ -1,2 +1,4 @@
 # AI_Case_Studies
-AI project developed to learn doing a RAG project with different approaches
+AI project developed to learn doing RAG projects with different approaches
+
+Each project has its own readme file.
