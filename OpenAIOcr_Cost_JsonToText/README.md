@@ -1,7 +1,9 @@
-📄 JSON to Text Extraction Utility
+# 📄 JSON to Text Extraction Utility
 JSON to Text Extraction Utility is a specialized tool designed to convert complex nested JSON data structures into human-readable text files. With recursive parsing capabilities and hierarchical formatting, this utility makes it easy to extract and view structured data in a more accessible format.
-🧠 Technologies Used
-🔄 Recursive JSON Parsing
+# 🧠 Technologies Used
+</br>
+
+ 🔄 Recursive JSON Parsing
 
 Purpose: Traverses complex nested JSON structures to extract all textual content.
 Why: Handles arbitrarily deep nesting levels while maintaining the hierarchical relationship of data.
@@ -24,7 +26,7 @@ pythonCopydef extract_all_text_from_json(data, depth=0):
     return text_lines
 
 
-📂 Batch Processing
+ 📂 Batch Processing
 
 Purpose: Processes multiple JSON files in a single operation.
 Why: Increases efficiency when working with collections of JSON documents.
@@ -36,13 +38,13 @@ pythonCopydef process_all_json_files(input_dir, output_dir):
             extract_text_from_json(json_path, output_dir)
 
 
-📋 Formatted Output
+ 📋 Formatted Output
 
 Purpose: Generates well-formatted, indented text for readability.
 Why: Preserves hierarchical structure of the original JSON data in the text output.
 Feature: Automatic indentation based on nesting depth for improved readability.
 
-📁 Intelligent File Organization
+ 📁 Intelligent File Organization
 
 Purpose: Creates a logical directory structure for output files.
 Why: Keeps related outputs organized and easily accessible.
@@ -53,13 +55,13 @@ output_path = os.path.join(output_subdir, f"{base_name}.txt")
 os.makedirs(output_subdir, exist_ok=True)
 
 
-⚠️ Error Handling
+ ⚠️ Error Handling
 
 Purpose: Provides robust error detection and reporting.
 Why: Ensures the script continues operation even when individual files fail processing.
 Implementation: Specific exception handling for common file operations and data parsing errors.
 
-🌐 Summary
+ 🌐 Summary
 This utility demonstrates effective techniques for:
 
 Structured data transformation from JSON to readable text
@@ -67,11 +69,13 @@ Hierarchical data preservation through intelligent formatting
 Batch processing of multiple files
 Clean file organization with automatic directory creation
 Robust error handling for production-ready operation
+<br/>
 
+# <b> ⚠️ Notes
 This project uses OpenAI's Vision model (gpt-4o) to extract structured data from images (e.g., scanned handwriting or printed documents) and calculate the estimated cost of the API usage.
 
 Add your OpenAI API Key: Replace the empty string in the following line in main() with your actual key:
 
 <pre>
     client = OpenAI(api_key="your-api-key-here")
-</pre>
+</pre> </b>
