@@ -4,7 +4,7 @@ from langchain_community.vectorstores import SKLearnVectorStore
 from langchain_nomic.embeddings import NomicEmbeddings
 
 # Load the document from the .md file
-with open(r'C:\Users\ishak\OneDrive\Masaüstü\deneme\alice_in_wonderland (1).md', 'r', encoding='utf-8') as file:
+with open('alice_in_wonderland (1).md', 'r', encoding='utf-8') as file:
     docs = file.read()
 
 # Create a Document object with metadata (optional)
