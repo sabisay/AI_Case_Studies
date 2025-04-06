@@ -53,8 +53,9 @@ This project demonstrates the powerful synergy between:
 
 > If you plan to contribute or deploy this project, please make sure to configure your `.env` file and install all dependencies in both the frontend and backend directories.
 <pre> HUGGINGFACEHUB_API_TOKEN= your_api_token
-LLM_MODEL_NAME=gpt2
+LLM_MODEL_NAME=meta-llama/Llama-3.2-3B-Instruct
 EMBEDDING_MODEL_NAME=sentence-transformers/all-MiniLM-L6-v2
 PDF_DIR=_backend/data/pdfs
 CHUNK_DIR=_backend/data/chunks
-VECTORSTORE_DIR=_backend/data/vectorstores </pre>
+VECTORSTORE_DIR=_backend/data/vectorstores
+MD_DIR=_backend/data/metadatas </pre>
