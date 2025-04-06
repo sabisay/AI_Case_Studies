@@ -1,3 +1,5 @@
+*project has its own <pre>requirements.txt</pre>*
+
 "I got help from Underfitted youtube channel, the video name is: Building a RAG application using open-source models (Asking questions from a PDF using Llama2). Thanks for providing valuable informations."
 
 <h4> A RAG project can be generalized into key steps: embedding the language, importing datasets, and creating chunks, crafting an effective prompt, and adding a grader to evaluate results. Beyond this, incorporating memory and retrieval mechanisms, such as Chroma or FAISS, is essential for efficient data access. Evaluation metrics like BLEU or ROUGE help measure performance, while deployment considerations ensure real-world usability. Optimizing each of these steps, particularly prompt design and data chunking, is crucial for building robust and scalable RAG solutions.</h4></br>
