@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { fetchResponse, fetchAvailablePDFs } from "./api";
+import { fetchResponse, fetchAvailablePDFs } from "./Api";
 
 function App() {
   const [query, setQuery] = useState("");

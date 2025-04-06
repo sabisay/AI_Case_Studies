@@ -8,7 +8,7 @@ import os
 from collections import OrderedDict 
 
 app = Flask(__name__)
-CORS(app)
+CORS(app, resources={r"/*": {"origins": "http://localhost:5173"}})
 
 check_authentication()
 llm = load_llm()

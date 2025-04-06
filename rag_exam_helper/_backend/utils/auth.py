@@ -11,5 +11,10 @@ def check_authentication():
     except Exception as e:
         print("❌ Authentication failed:", str(e))
 
-def load_llm(model_name=LLM_MODEL_NAME, temperature=0.8):
-    return HuggingFaceEndpoint(repo_id=model_name, temperature=temperature)
+def load_llm(model_name=LLM_MODEL_NAME, temperature=0.8, max_tokens=512):
+    return HuggingFaceEndpoint(
+        repo_id=model_name, 
+        temperature=temperature, 
+        task="text-generation", 
+        max_new_tokens=max_tokens
+    )
