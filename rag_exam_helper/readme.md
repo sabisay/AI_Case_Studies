@@ -3,6 +3,7 @@
 **RAG Exam Helper** is a full-stack AI-powered application that uses **LangChain RAG (Retrieval-Augmented Generation)** on the backend and **React** on the frontend. It allows users to upload exam papers and intelligently extract relevant answers or feedback using large language models.
 This project combines a **Retrieval-Augmented Generation (RAG)** backend with a modern **React + Vite** frontend. It is designed to provide a fast and interactive user experience while leveraging cutting-edge language model capabilities.
 
+*project has its own <pre>requirements.txt</pre>*
 ---
 
 ## 🧠 Technologies Used
