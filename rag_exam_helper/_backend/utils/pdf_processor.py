@@ -4,7 +4,7 @@ from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain.schema import Document
 from config import CHUNK_DIR
 
-def process_pdf_chunks(pdf_path, chunk_size=1000, chunk_overlap=150, force=False):
+def process_pdf_chunks(pdf_path, chunk_size=1500, chunk_overlap=150, force=False):
     filename = os.path.basename(pdf_path).replace(".pdf", "")
     chunk_file = os.path.join(CHUNK_DIR, f"{filename}.json")
     
