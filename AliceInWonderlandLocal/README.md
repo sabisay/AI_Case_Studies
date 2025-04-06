@@ -1,6 +1,25 @@
+🙏 Acknowledgements
+This project was inspired by Underfitted YouTube channel's video: "Building a RAG application using open-source models (Asking questions from a PDF using Llama2)."
+
 *project has its own <pre>requirements.txt</pre>*
 
-"I got help from Underfitted youtube channel, the video name is: Building a RAG application using open-source models (Asking questions from a PDF using Llama2). Thanks for providing valuable informations."
+🌐 Summary
+This project demonstrates advanced exam grading capabilities by combining:
+
+Local LLM integration for private, efficient text processing
+Document chunking and embedding for semantic understanding
+Vector stores for efficient knowledge retrieval
+Intelligent routing between local knowledge and web search
+Retrieval grading techniques for accurate evaluation
+
+📚 Alice in Wonderland Exam Grader
+Alice in Wonderland Exam Grader is an advanced natural language processing application that evaluates exam responses based on the classic novel "Alice in Wonderland." Using a combination of local LLM integration, vector search, and retrieval grading techniques, this project enables automated assessment of literary comprehension with high accuracy.
+🧠 Technologies Used
+🤖 LLM Integration
+
+Purpose: Powers the core language understanding and response evaluation capabilities.
+Why: Local models offer privacy, reduced latency, and no usage costs while maintaining high-quality assessments.
+Implementation:
 
 <h4> A RAG project can be generalized into key steps: embedding the language, importing datasets, and creating chunks, crafting an effective prompt, and adding a grader to evaluate results. Beyond this, incorporating memory and retrieval mechanisms, such as Chroma or FAISS, is essential for efficient data access. Evaluation metrics like BLEU or ROUGE help measure performance, while deployment considerations ensure real-world usability. Optimizing each of these steps, particularly prompt design and data chunking, is crucial for building robust and scalable RAG solutions.</h4></br>
 
